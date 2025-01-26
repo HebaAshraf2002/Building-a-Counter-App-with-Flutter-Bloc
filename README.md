@@ -32,35 +32,35 @@
 
 ## 2. Key Components
 
-    ### 1. CounterCubit
-    
-    - State: The counter's value is stored as an integer, which is the initial state set to 0.
-    
-    ### 2. Methods:
-    
-    - increment: Increases the counter value by 1 and emits the new state.
-    
-    - decrement: Decreases the counter value by 1 and emits the new state.
-    
-    ### 3. CounterView
-    
-    1. UI:
-    
-    - Displays the counter value in the center of the screen.
-    
-    - Provides two floating action buttons for incrementing and decrementing the counter.
-    
-    2. Logic:
-    
-    - BlocConsumer is used to listen to state changes and rebuild the UI.
-    
-    3. Listener:
-    
-    - Shows an alert dialog if the counter value is negative.
-    
-    - Displays a snackbar if the counter reaches 10 or -10.
-    
-    4. Builder: Updates the counter value in the UI whenever the state changes.
+### 1. CounterCubit
+
+- State: The counter's value is stored as an integer, which is the initial state set to 0.
+
+### 2. Methods:
+
+- increment: Increases the counter value by 1 and emits the new state.
+
+- decrement: Decreases the counter value by 1 and emits the new state.
+
+### 3. CounterView
+
+1. UI:
+
+- Displays the counter value in the center of the screen.
+
+- Provides two floating action buttons for incrementing and decrementing the counter.
+
+2. Logic:
+
+- BlocConsumer is used to listen to state changes and rebuild the UI.
+
+3. Listener:
+
+- Shows an alert dialog if the counter value is negative.
+
+- Displays a snackbar if the counter reaches 10 or -10.
+
+4. Builder: Updates the counter value in the UI whenever the state changes.
 
 ## 3.Main App Flow
 
