@@ -24,7 +24,7 @@
 
 # How the Code Works ?
 
-## 1.Folder Structure
+## 1. Folder Structure
 
 - Cubit: Contains the CounterCubit class and associated state logic.
 
