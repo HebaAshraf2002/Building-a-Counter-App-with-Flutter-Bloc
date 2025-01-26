@@ -8,19 +8,19 @@
 
 ## 1. Increment/Decrement Counter:
 
-    - Users can increment or decrement the counter value by pressing the respective floating action buttons.
-    
-    - The counter value is displayed at the center of the screen.
+- Users can increment or decrement the counter value by pressing the respective floating action buttons.
+
+- The counter value is displayed at the center of the screen.
 
 ## 2. Conditional Alerts:
 
-    - If the counter value drops below 0, an alert dialog is shown to warn the user.
-    
-    - If the counter value reaches 10 or -10, a snackbar notification appears indicating the limit has been reached.
+- If the counter value drops below 0, an alert dialog is shown to warn the user.
+
+- If the counter value reaches 10 or -10, a snackbar notification appears indicating the limit has been reached.
 
 ## 3. State Management:
 
-    - The app uses the Cubit pattern to manage the counter state efficiently and rebuild the UI whenever the state changes.
+- The app uses the Cubit pattern to manage the counter state efficiently and rebuild the UI whenever the state changes.
 
 # How the Code Works ?
 
